@@ -1,0 +1,11 @@
+﻿@page "/"
+@inject IStringLocalizer<Culture> Localizor 
+
+
+<PageTitle>Index</PageTitle>
+
+<h1>@Localizor["helloworld"]</h1>
+
+@Localizor["welcome"]
+
+<SurveyPrompt Title="How is Blazor working for you?" />
